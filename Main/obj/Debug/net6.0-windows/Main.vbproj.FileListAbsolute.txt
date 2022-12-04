@@ -16,3 +16,7 @@ D:\Users\Nisar\Documents\GitHub\Quiz_Game\Main\obj\Debug\net6.0-windows\refint\M
 D:\Users\Nisar\Documents\GitHub\Quiz_Game\Main\obj\Debug\net6.0-windows\Main.pdb
 D:\Users\Nisar\Documents\GitHub\Quiz_Game\Main\obj\Debug\net6.0-windows\Main.genruntimeconfig.cache
 D:\Users\Nisar\Documents\GitHub\Quiz_Game\Main\obj\Debug\net6.0-windows\ref\Main.dll
+D:\Users\Nisar\Documents\GitHub\Quiz_Game\Main\obj\Debug\net6.0-windows\Main.Form3.resources
+D:\Users\Nisar\Documents\GitHub\Quiz_Game\Main\obj\Debug\net6.0-windows\Main.Form4.resources
+D:\Users\Nisar\Documents\GitHub\Quiz_Game\Main\obj\Debug\net6.0-windows\Main.Form5.resources
+D:\Users\Nisar\Documents\GitHub\Quiz_Game\Main\obj\Debug\net6.0-windows\Main.Form6.resources
