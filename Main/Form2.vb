@@ -17,29 +17,27 @@ Public Class Form2
         username.AppendLine(TextBox1.Text)
         password.AppendLine(TextBox2.Text)
         Dim filePath As String = "D:\Users\Nisar\Documents\GitHub\Quiz_Game\Main\Text documents\Login details.txt"
-
-        ' Replace "target line" with the line you want to find
         Dim targetLine As String = username.ToString
-        MsgBox(targetLine)
-
-        ' Open the file for reading
         Using reader As New StreamReader(filePath)
             Dim line As String
-
-            ' Read the file line by line
+            Dim line2 As String
+            Dim linecount As Integer = 0
             While Not reader.EndOfStream
+                linecount += 1
                 line = reader.ReadLine()
-                MsgBox(line)
-
-                ' Check if the current line matches the target line
                 If line = TextBox1.Text.ToString() Then
-                    ' Print the target line to the console
-                    MsgBox(line)
-                    Return
+                    MsgBox(linecount)
+                    For i As Integer = 1 To linecount - 1
+                        reader.ReadLine()
+                    Next
+                    line2 = reader.ReadLine()
+                    MsgBox(line2)
+                    If line2 = TextBox2.Text.ToString() Then
+                        MsgBox("success")
+                        Return
+                    End If
                 End If
             End While
-
-            ' If the loop completes, the target line was not found
             MsgBox("Target line not found in the file.")
         End Using
     End Sub
