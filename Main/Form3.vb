@@ -23,13 +23,15 @@ Public Class Form3
         username.AppendLine(TextBox1.Text)
         password.AppendLine(TextBox2.Text)
         If info.Contains(username.ToString()) Then
-            MsgBox("Usernane already exists, please try again")
+            MsgBox("Username already exists, please try again")
         Else
             store(username, password, detailspath)
         End If
 
 
+    End Sub
 
+    Private Sub Form3_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
 End Class
