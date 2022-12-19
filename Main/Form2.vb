@@ -12,33 +12,34 @@ Public Class Form2
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        Dim username As New StringBuilder
-        Dim password As New StringBuilder
+        Dim username As New StringBuilder 'Declare the username variable
+        Dim password As New StringBuilder 'Declare the password variable
         username.AppendLine(TextBox1.Text)
-        password.AppendLine(TextBox2.Text)
-        Dim filePath As String = "D:\Users\Nisar\Documents\GitHub\Quiz_Game\Main\Text documents\Login details.txt"
+        password.AppendLine(TextBox2.Text) 'Assigns the values to the corresponding textbox in the program
+        Dim filePath As String = "D:\Users\Nisar\Documents\GitHub\Quiz_Game\Main\Text documents\Login details.txt" 'Declares location of the database
         Dim targetLine As String = username.ToString
         Using reader As New StreamReader(filePath)
             Dim line As String
             Dim line2 As String
-            Dim linecount As Integer = 0
+            Dim linecount As Integer = 0 'Defines the index of the database. In this case, the first element will be at index 1
             While Not reader.EndOfStream
-                linecount += 1
+                linecount += 1 'Add one to the index to determine which line of the database the username is located in 
                 line = reader.ReadLine()
                 If line = TextBox1.Text.ToString() Then
                     MsgBox(linecount)
-                    For i As Integer = 1 To linecount - 1
-                        reader.ReadLine()
+                    Dim linecount2 As Integer
+                    linecount2 = linecount + 1
+                    For i As Integer = 1 To linecount
+                        line2 = reader.ReadLine()
+                        MsgBox(line2)
+                        If line2 = TextBox2.Text.ToString() Then
+                            MsgBox("Success")
+                            Return
+                        End If
                     Next
-                    line2 = reader.ReadLine()
-                    MsgBox(line2)
-                    If line2 = TextBox2.Text.ToString() Then
-                        MsgBox("success")
-                        Return
-                    End If
                 End If
             End While
-            MsgBox("Target line not found in the file.")
+            MsgBox("Target line not found in the file.") 'Displays a message to say that the target line is 
         End Using
     End Sub
 

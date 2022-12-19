@@ -112,7 +112,7 @@ Partial Class Form4
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Name = "Form4"
-        Me.Text = "Form4"
+        Me.Text = "Quiz Game"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

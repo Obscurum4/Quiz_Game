@@ -135,7 +135,7 @@ Partial Class Form2
         Me.Font = New System.Drawing.Font("Calibri", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Form2"
-        Me.Text = "Form2"
+        Me.Text = "Quiz Game"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
