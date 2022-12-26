@@ -26,14 +26,13 @@ Public Class Form2
                 linecount += 1 'Add one to the index to determine which line of the database the username is located in 
                 line = reader.ReadLine()
                 If line = TextBox1.Text.ToString() Then
-                    MsgBox(linecount)
                     Dim linecount2 As Integer
-                    linecount2 = linecount + 1
-                    For i As Integer = 1 To linecount
+                    linecount2 = linecount + 1 'Determines which line of the code the username will be in, which will be the line after
+                    For i As Integer = 1 To linecount 'Condition for whether the target password is found
                         line2 = reader.ReadLine()
                         MsgBox(line2)
                         If line2 = TextBox2.Text.ToString() Then
-                            MsgBox("Success")
+                            MsgBox("Success") 'If password also matches, the program will display a success message
                             Return
                         End If
                     Next
