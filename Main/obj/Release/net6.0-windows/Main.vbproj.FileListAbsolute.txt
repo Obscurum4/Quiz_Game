@@ -20,3 +20,5 @@ D:\Users\Nisar\Documents\GitHub\Quiz_Game\Main\obj\Release\net6.0-windows\refint
 D:\Users\Nisar\Documents\GitHub\Quiz_Game\Main\obj\Release\net6.0-windows\Main.pdb
 D:\Users\Nisar\Documents\GitHub\Quiz_Game\Main\obj\Release\net6.0-windows\Main.genruntimeconfig.cache
 D:\Users\Nisar\Documents\GitHub\Quiz_Game\Main\obj\Release\net6.0-windows\ref\Main.dll
+D:\Users\Nisar\Documents\GitHub\Quiz_Game\Main\obj\Release\net6.0-windows\Main.Form7.resources
+D:\Users\Nisar\Documents\GitHub\Quiz_Game\Main\obj\Release\net6.0-windows\Main.Form8.resources

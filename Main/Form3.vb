@@ -18,7 +18,7 @@ Public Class Form3
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         Dim username As New StringBuilder
         Dim password As New StringBuilder
-        Dim detailspath As String = "D:\Users\Nisar\Documents\GitHub\Quiz_Game\Main\Text documents\Login details.txt"
+        Dim detailspath As String = "D:\Users\Nisar\Documents\GitHub\Quiz_Game\Main\Text documents\Login details.txt" 'Declares where the directory with all the login details is
         Dim info = File.ReadAllText(detailspath)
         username.AppendLine(TextBox1.Text)
         password.AppendLine(TextBox2.Text)
@@ -26,6 +26,7 @@ Public Class Form3
             MsgBox("Username already exists, please try again")
         Else
             store(username, password, detailspath)
+            MsgBox("Sign Up Successful! Please sign in")
         End If
 
 

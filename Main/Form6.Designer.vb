@@ -55,7 +55,7 @@ Partial Class Form6
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(252, 123)
         Me.Button4.TabIndex = 14
-        Me.Button4.Text = "Quiz 1"
+        Me.Button4.Text = "General Knowledge"
         Me.Button4.UseVisualStyleBackColor = False
         '
         'Button2
@@ -83,7 +83,7 @@ Partial Class Form6
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(252, 123)
         Me.Button3.TabIndex = 16
-        Me.Button3.Text = "Quiz 1"
+        Me.Button3.Text = "History"
         Me.Button3.UseVisualStyleBackColor = False
         '
         'Button5
@@ -97,7 +97,7 @@ Partial Class Form6
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(252, 123)
         Me.Button5.TabIndex = 17
-        Me.Button5.Text = "Quiz 1"
+        Me.Button5.Text = "Geography"
         Me.Button5.UseVisualStyleBackColor = False
         '
         'Button6
@@ -111,7 +111,7 @@ Partial Class Form6
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(252, 123)
         Me.Button6.TabIndex = 18
-        Me.Button6.Text = "Quiz 1"
+        Me.Button6.Text = "Computer Science"
         Me.Button6.UseVisualStyleBackColor = False
         '
         'Button7
@@ -125,7 +125,7 @@ Partial Class Form6
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(252, 123)
         Me.Button7.TabIndex = 19
-        Me.Button7.Text = "Quiz 1"
+        Me.Button7.Text = "Football"
         Me.Button7.UseVisualStyleBackColor = False
         '
         'Button8
@@ -139,14 +139,14 @@ Partial Class Form6
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(252, 123)
         Me.Button8.TabIndex = 20
-        Me.Button8.Text = "Quiz 1"
+        Me.Button8.Text = "Pop Culture"
         Me.Button8.UseVisualStyleBackColor = False
         '
         'Form6
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(189, Byte), Integer), CType(CType(214, Byte), Integer), CType(CType(238, Byte), Integer))
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(181, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(221, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(914, 560)
         Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.Button7)
