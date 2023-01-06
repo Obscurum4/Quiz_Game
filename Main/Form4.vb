@@ -13,7 +13,7 @@ Public Class Form4
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         Hide()
-        Form1.Show()
+        Form1.Show() 'User is re-directed to the main menu
     End Sub
 
     Private Function store(username, detailspath2) 'Declare function that stores the username in a temporary directory for later use
@@ -23,19 +23,21 @@ Public Class Form4
 
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        Dim username As New StringBuilder
+        Dim username As New StringBuilder 'username variable declared
         Dim detailspath As String = "D:\Users\Nisar\Documents\GitHub\Quiz_Game\Main\Text documents\Login details.txt" 'Declares where the directory with all the login details is
         Dim detailspath2 As String = "D:\Users\Nisar\Documents\GitHub\Quiz_Game\Main\Text documents\temp_usernames.txt" 'Declares where the directory that stores the username temporarily
         Dim info = File.ReadAllText(detailspath)
-        username.AppendLine(TextBox1.Text)
-        If info.Contains(username.ToString) Then
-            store(username, detailspath2)
+        username.AppendLine(TextBox1.Text) 'Assigns the username variable to the texbox
+        If info.Contains(username.ToString) Then 'IF statement that allows user to proceed only if the account is found
+            store(username, detailspath2) 'Function that stores the username in a temporary file, so that it can be used for the next form 
             Hide()
-            Form5.Show()
+            Form5.Show() 'Next forgot password interface is shown
         Else
             MsgBox("Try again") 'Error message displayed as a result of a username not being found in the database
         End If
     End Sub
+
+
 
 
 

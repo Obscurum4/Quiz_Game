@@ -9,12 +9,12 @@ Public Class Form5
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         Hide()
-        Form1.Show()
+        Form1.Show() 'Hides current interface and open the main menu
     End Sub
 
 
     Private Sub Form5_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Dim filePath As String = "D:\Users\Nisar\Documents\GitHub\Quiz_Game\Main\Text documents\temp_usernames.txt" 'Declares location of the text file containing the username for the account the user wants to reset
+        Dim filePath As String = "D:\Users\Nisar\Documents\GitHub\Quiz_Game\Main\Text documents\temp_usernames.txt" 'Declares location of the text file containing the username for account 
         Using reader As New StreamReader(filePath)
             Dim username As String = reader.ReadLine() 'Assigns the first line of the text file as a variable called username
             Label3.Text = username 'Displays the username of the user
