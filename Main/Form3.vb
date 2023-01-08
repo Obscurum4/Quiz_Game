@@ -10,10 +10,10 @@ Public Class Form3
         Form1.Show() 'Hides current interface and open the main menu
     End Sub
 
-    Private Function store(username, password, detailspath)
+    Private Sub store(username, password, detailspath)
         File.AppendAllText(detailspath, username.ToString()) 'Stores the username on the database
         File.AppendAllText(detailspath, password.ToString()) 'Stores the password on the databse, on the line after the username
-    End Function
+    End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         Dim username As New StringBuilder 'Username variable declared

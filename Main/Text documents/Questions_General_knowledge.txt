@@ -10,7 +10,7 @@ What is the square root of 169?
 14
 15
 16
-169
+13
 
 What is the chemical symbol for oxygen?
 O
@@ -38,35 +38,35 @@ Harper Lee
 Stephen King
 John Steinbeck
 Mark Twain
-1
+Harper Lee
 
 What is the capital of Australia?
 Canberra
 Sydney
 Melbourne
 Brisbane
-1
+Canberra
 
 What is the largest planet in the solar system?
 Jupiter
 Saturn
 Uranus
 Neptune
-1
+Jupiter
 
 What is the chemical symbol for gold?
 Au
 Ag
 Pt
 Cu
-1
+Au
 
 What is the capital of Brazil?
 Brasília
 São Paulo
 Rio de Janeiro
 Belo Horizonte
-1
+Brasilia
 
 What is the chemical symbol for sodium?
 Na

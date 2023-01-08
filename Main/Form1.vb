@@ -26,6 +26,9 @@
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        Dim fileStream2 As New System.IO.FileStream("D:\Users\Nisar\Documents\GitHub\Quiz_Game\Main\Text documents\category.txt", System.IO.FileMode.Truncate) 'Wipes all the contents of the temporary text file so it can be used again
+        fileStream2.Close() 'Closes the file for later use
+        Dim fileStream As New System.IO.FileStream("D:\Users\Nisar\Documents\GitHub\Quiz_Game\Main\Text documents\game_username.txt", System.IO.FileMode.Truncate) 'Wipes all the contents of the temporary text file so it can be used again
+        fileStream.Close() 'Closes the file for later use
     End Sub
 End Class

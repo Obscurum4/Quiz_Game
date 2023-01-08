@@ -27,7 +27,7 @@ Partial Class Form8
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button7 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
-        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Points = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Button1
@@ -88,15 +88,15 @@ Partial Class Form8
         Me.Button3.Text = "Continue to Leaderboard"
         Me.Button3.UseVisualStyleBackColor = False
         '
-        'Label2
+        'Points
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(234, Byte), Integer), CType(CType(106, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(454, 248)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(40, 15)
-        Me.Label2.TabIndex = 18
-        Me.Label2.Text = "Points"
+        Me.Points.AutoSize = True
+        Me.Points.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(234, Byte), Integer), CType(CType(106, Byte), Integer))
+        Me.Points.Location = New System.Drawing.Point(454, 248)
+        Me.Points.Name = "Points"
+        Me.Points.Size = New System.Drawing.Size(40, 15)
+        Me.Points.TabIndex = 18
+        Me.Points.Text = "Points"
         '
         'Form8
         '
@@ -104,7 +104,7 @@ Partial Class Form8
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(181, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(221, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(914, 560)
-        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Points)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Button2)
@@ -122,5 +122,5 @@ Partial Class Form8
     Friend WithEvents Button2 As Button
     Friend WithEvents Button7 As Button
     Friend WithEvents Button3 As Button
-    Friend WithEvents Label2 As Label
+    Friend WithEvents Points As Label
 End Class

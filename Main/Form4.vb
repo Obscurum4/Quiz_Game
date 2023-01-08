@@ -16,9 +16,9 @@ Public Class Form4
         Form1.Show() 'User is re-directed to the main menu
     End Sub
 
-    Private Function store(username, detailspath2) 'Declare function that stores the username in a temporary directory for later use
+    Private Sub store(username, detailspath2) 'Declare function that stores the username in a temporary directory for later use
         File.AppendAllText(detailspath2, username.ToString()) 'Stores the username in the temporary file directory
-    End Function
+    End Sub
 
 
 

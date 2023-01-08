@@ -24,7 +24,6 @@ Partial Class Form10
     Private Sub InitializeComponent()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button7 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
@@ -60,17 +59,6 @@ Partial Class Form10
         Me.Button7.TabIndex = 17
         Me.Button7.Text = "Scoreboard"
         Me.Button7.UseVisualStyleBackColor = False
-        '
-        'Button2
-        '
-        Me.Button2.BackColor = System.Drawing.Color.White
-        Me.Button2.Location = New System.Drawing.Point(625, 483)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(126, 49)
-        Me.Button2.TabIndex = 18
-        Me.Button2.Text = "Previous Page"
-        Me.Button2.UseVisualStyleBackColor = False
         '
         'Button3
         '
@@ -200,7 +188,6 @@ Partial Class Form10
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Button1)
         Me.Name = "Form10"
@@ -211,7 +198,6 @@ Partial Class Form10
 
     Friend WithEvents Button1 As Button
     Friend WithEvents Button7 As Button
-    Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button
     Friend WithEvents Button5 As Button

@@ -1,0 +1,9 @@
+lol: 9
+halla: 9
+adolla: 8
+hi: 7
+Eve: 4
+nisar: 4
+nisar: 4
+Alice: 3
+nisar: 3
