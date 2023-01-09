@@ -6,7 +6,7 @@ Public Class Form8
     Dim leaderboard_directory As String
     Dim username As String
     Private Sub Form8_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Dim filePath As String = "D:\Users\Nisar\Documents\GitHub\Quiz_Game\Main\Text documents\score.txt" 'Declares location of the text file containing the username 
+        Dim filePath As String = "D:\Users\Nisar\Documents\GitHub\Quiz_Game\Main\Text documents\score.txt" 'Declares location of the text file containing the score
         Using reader As New StreamReader(filePath)
             score = reader.ReadLine() 'Assigns the first line of the text file as a variable called username
             Points.Text = score 'Displays the username of the user
@@ -15,7 +15,7 @@ Public Class Form8
             Dim fileStream As New System.IO.FileStream(filePath, System.IO.FileMode.Truncate) 'Wipes all the contents of the temporary text file so it can be used again
             fileStream.Close() 'Closes the file for later use
         End If
-        HighScoreCheck()
+        HighScoreCheck() 'Function called to see what message should be dios
     End Sub
 
     Private Sub HighScoreCheck()
@@ -69,17 +69,17 @@ Public Class Form8
         Using reader As New StreamReader(filePath)
             username = reader.ReadLine() 'Assigns the first line of the text file as a variable called username
         End Using
-        Return username
+        Return username 'username is returned
     End Function
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         Hide()
         Dim form9 As New Form9()
-        form9.Show()
+        form9.Show() 'Leaderboard interface is shown
     End Sub
 
     Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
         Hide()
-        Form10.Show()
+        Form10.Show() 'Question review interface is opened
     End Sub
 End Class

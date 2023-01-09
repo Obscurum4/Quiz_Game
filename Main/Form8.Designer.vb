@@ -25,9 +25,9 @@ Partial Class Form8
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Points = New System.Windows.Forms.Label()
+        Me.Button7 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
@@ -66,17 +66,6 @@ Partial Class Form8
         Me.Button2.Text = "NEW RECORD"
         Me.Button2.UseVisualStyleBackColor = False
         '
-        'Button7
-        '
-        Me.Button7.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(153, Byte), Integer))
-        Me.Button7.Location = New System.Drawing.Point(23, 484)
-        Me.Button7.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(173, 49)
-        Me.Button7.TabIndex = 16
-        Me.Button7.Text = "Review Questions"
-        Me.Button7.UseVisualStyleBackColor = False
-        '
         'Button3
         '
         Me.Button3.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(234, Byte), Integer), CType(CType(106, Byte), Integer))
@@ -98,6 +87,17 @@ Partial Class Form8
         Me.Points.TabIndex = 18
         Me.Points.Text = "Points"
         '
+        'Button7
+        '
+        Me.Button7.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(153, Byte), Integer))
+        Me.Button7.Location = New System.Drawing.Point(23, 484)
+        Me.Button7.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(173, 49)
+        Me.Button7.TabIndex = 16
+        Me.Button7.Text = "Review Questions"
+        Me.Button7.UseVisualStyleBackColor = False
+        '
         'Form8
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
@@ -111,7 +111,7 @@ Partial Class Form8
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button1)
         Me.Name = "Form8"
-        Me.Text = "Form8"
+        Me.Text = "Quiz Game"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -120,7 +120,7 @@ Partial Class Form8
     Friend WithEvents Button1 As Button
     Friend WithEvents Button5 As Button
     Friend WithEvents Button2 As Button
-    Friend WithEvents Button7 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Points As Label
+    Friend WithEvents Button7 As Button
 End Class

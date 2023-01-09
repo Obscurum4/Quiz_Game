@@ -204,7 +204,7 @@ Partial Class Form9
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button1)
         Me.Name = "Form9"
-        Me.Text = "Form9"
+        Me.Text = "Quiz Game"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

@@ -24,3 +24,6 @@ D:\Users\Nisar\Documents\GitHub\Quiz_Game\Main\obj\Release\net6.0-windows\Main.F
 D:\Users\Nisar\Documents\GitHub\Quiz_Game\Main\obj\Release\net6.0-windows\Main.Form8.resources
 D:\Users\Nisar\Documents\GitHub\Quiz_Game\Main\obj\Release\net6.0-windows\Main.Form10.resources
 D:\Users\Nisar\Documents\GitHub\Quiz_Game\Main\obj\Release\net6.0-windows\Main.Form9.resources
+D:\Users\Nisar\Documents\GitHub\Quiz_Game\Main\obj\Release\net6.0-windows\Main.Form11.resources
+D:\Users\Nisar\Documents\GitHub\Quiz_Game\Main\obj\Release\net6.0-windows\Main.Form12.resources
+D:\Users\Nisar\Documents\GitHub\Quiz_Game\Main\obj\Release\net6.0-windows\Main.Form13.resources

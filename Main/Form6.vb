@@ -2,24 +2,24 @@
 Imports System.IO
 
 Public Class Form6
-    Dim category_directory As String = ("D:\Users\Nisar\Documents\GitHub\Quiz_Game\Main\Text documents\category.txt")
+    Dim category_directory As String = ("D:\Users\Nisar\Documents\GitHub\Quiz_Game\Main\Text documents\category.txt") ' location of temporary text file with category name
     Private Sub Form6_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Dim fileStream As New System.IO.FileStream("D:\Users\Nisar\Documents\GitHub\Quiz_Game\Main\Text documents\category.txt", System.IO.FileMode.Truncate) 'Wipes all the contents of the temporary text file so it can be used again
+        Dim fileStream As New System.IO.FileStream(category_directory, System.IO.FileMode.Truncate) 'Wipes all the contents of the temporary text file so it can be used again
         fileStream.Close() 'Closes the file for later use
     End Sub
 
-    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button_General_Knowledge.Click
         Using file As New StreamWriter(category_directory)
-            file.WriteLine(Button4.Text.ToString)
+            file.WriteLine(Button_General_Knowledge.Text.ToString) 'Category name is stored in file for other interfaces to read and assign it as a variable
         End Using
         Hide()
-        Dim form7 As New Form7()
-        form7.Show()
+        Dim Quiz_interface As New Form7() 'New instance of the form declared
+        Quiz_interface.Show() 'New instance of the form is opened
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Hide()
-        Form1.Show()
+        Form1.Show() 'Opens authentication menu
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click

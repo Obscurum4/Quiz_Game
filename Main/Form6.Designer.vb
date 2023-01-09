@@ -23,7 +23,7 @@ Partial Class Form6
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button_General_Knowledge = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
@@ -44,19 +44,19 @@ Partial Class Form6
         Me.Button1.Text = "GENERAL KNOWLEDGE QUIZ GAME"
         Me.Button1.UseVisualStyleBackColor = False
         '
-        'Button4
+        'Button_General_Knowledge
         '
-        Me.Button4.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(176, Byte), Integer), CType(CType(80, Byte), Integer))
-        Me.Button4.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button4.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button4.Location = New System.Drawing.Point(58, 173)
-        Me.Button4.Margin = New System.Windows.Forms.Padding(3, 5, 3, 5)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(252, 123)
-        Me.Button4.TabIndex = 14
-        Me.Button4.Text = "General Knowledge"
-        Me.Button4.UseVisualStyleBackColor = False
+        Me.Button_General_Knowledge.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(176, Byte), Integer), CType(CType(80, Byte), Integer))
+        Me.Button_General_Knowledge.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button_General_Knowledge.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button_General_Knowledge.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Button_General_Knowledge.Location = New System.Drawing.Point(58, 173)
+        Me.Button_General_Knowledge.Margin = New System.Windows.Forms.Padding(3, 5, 3, 5)
+        Me.Button_General_Knowledge.Name = "Button_General_Knowledge"
+        Me.Button_General_Knowledge.Size = New System.Drawing.Size(252, 123)
+        Me.Button_General_Knowledge.TabIndex = 14
+        Me.Button_General_Knowledge.Text = "General Knowledge"
+        Me.Button_General_Knowledge.UseVisualStyleBackColor = False
         '
         'Button2
         '
@@ -154,7 +154,7 @@ Partial Class Form6
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button4)
+        Me.Controls.Add(Me.Button_General_Knowledge)
         Me.Controls.Add(Me.Button1)
         Me.Name = "Form6"
         Me.Text = "Quiz Game"
@@ -163,7 +163,7 @@ Partial Class Form6
     End Sub
 
     Friend WithEvents Button1 As Button
-    Friend WithEvents Button4 As Button
+    Friend WithEvents Button_General_Knowledge As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Button5 As Button
